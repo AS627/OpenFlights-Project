@@ -1,0 +1,16 @@
+Constructor
+1) Initialize Edges and graphs
+2) Generate Map with routes and distances (weights)
+3) Initialize all nodes to unvisited other than starting airport
+
+ShortestPath Method
+1) Find shortest path given start and end nodes 
+- First consider direct path to starting nodes and record distance
+  - check if (dist[visited] + cost[visited, unvisited] < distance[unvisited]) {
+            set  dist[unvisited] = dist[visited] + cost[visited, unvisited]
+-update visited nodes 
+
+
+
+
+
